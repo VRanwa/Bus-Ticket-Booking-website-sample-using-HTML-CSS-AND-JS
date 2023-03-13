@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking</title>
+    
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="C:\Users\91766\Downloads\images-_3_.ico" type="image/x-icon">
+  </head>
+  </body>
+    <header>
+      <h1>Bus Ticket Booking</h1>
+    </header>
+    <main>
+      <form>
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from">
+        
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination">
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        
+        <label for="passengers">Number of passengers:</label>
+        <select id="passengers" name="passengers">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        
+        <button type="submit" id="submit-button">Book Now</button>
+        <canvas id="qrcode"></canvas>
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2023 Bus Ticket Booking</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
